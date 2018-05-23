@@ -56,7 +56,7 @@ open class PikkartVideoPlayer: NSObject {
     
     fileprivate var requestedCursorPosition:Float = PLAYER_CURSOR_REQUEST_COMPLETE
     fileprivate var playerCursorPosition:Float = PLAYER_CURSOR_POSITION_MEDIA_START
-    fileprivate var playImmediately:Bool = false
+    open var playImmediately:Bool = false
     open  var videoSize:CGSize = CGSize.zero
     open  var videoLengthSeconds:Float64 = 0
     fileprivate var videoFrameRate:Float = 0

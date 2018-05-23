@@ -57,7 +57,7 @@ class ViewController: PKTRecognitionController {
         _videoMesh = VideoMesh(parentCtrl: self)
         let mediaBundlePath=Bundle.main.bundlePath+"/media.bundle"
         let mediaBundle=Bundle(path: mediaBundlePath)
-        _videoMesh!.InitMesh(mediaBundle!.path(forResource: "pikkart_video", ofType: "mp4")!, keyFrameUrl: mediaBundle!.path(forResource: "pikkart_keyframe", ofType: "png")!, seekPosition: 0, autostart: false, videoPlayer: nil)
+        _videoMesh!.InitMesh(mediaBundle!.path(forResource: "pikkart_video", ofType: "mp4")!, keyFrameUrl: mediaBundle!.path(forResource: "pikkart_keyframe", ofType: "png")!, seekPosition: 0, autostart: true, videoPlayer: nil)
         glClearColor(1.0, 1.0, 1.0, 1.0)
         self.updateViewPortWithOrientation()
         let authInfo:PKTCloudRecognitionInfo = PKTCloudRecognitionInfo(databaseName: "")

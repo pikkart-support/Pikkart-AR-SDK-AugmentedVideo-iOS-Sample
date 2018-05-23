@@ -408,6 +408,13 @@ open class VideoMesh: NSObject {
                                               m_out: UnsafeMutablePointer(mutating:mvpMatrix))
 
                     DrawKeyFrame(mvpMatrix);
+                    if(mPikkartVideoPlayer != nil) {
+                        currentStatus = mPikkartVideoPlayer.videoStatus
+                        if (currentStatus == .ready &&
+                            mPikkartVideoPlayer.playImmediately==true) {
+                            mPikkartVideoPlayer.play(Float(self.mSeekPosition))
+                        }
+                    }
                 } else
                 {
                     
