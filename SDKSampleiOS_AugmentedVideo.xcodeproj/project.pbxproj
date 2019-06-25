@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5B6047422C26BB0000FEECB /* pikkartARLocalized.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A5B6047322C26BB0000FEECB /* pikkartARLocalized.bundle */; };
 		E11C574F1D508AFC00043B2B /* monkey.json in Resources */ = {isa = PBXBuildFile; fileRef = E11C574E1D508AFC00043B2B /* monkey.json */; };
 		E11C57551D508DE800043B2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11C57541D508DE800043B2B /* Main.storyboard */; };
 		E12CB38D1D4F57E7009AB7B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CB38C1D4F57E7009AB7B9 /* AppDelegate.swift */; };
@@ -17,18 +18,19 @@
 		E12CB3A81D4F5C97009AB7B9 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E12CB3A71D4F5C97009AB7B9 /* libsqlite3.tbd */; };
 		E12CB3AF1D4F5E5A009AB7B9 /* Mesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CB3AE1D4F5E5A009AB7B9 /* Mesh.swift */; };
 		E12CB3B11D4F5E80009AB7B9 /* RenderUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CB3B01D4F5E80009AB7B9 /* RenderUtils.swift */; };
+		E13B7B841FED0DF600F0E4E2 /* pikkartMarker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E13B7B831FED0DF600F0E4E2 /* pikkartMarker.jpg */; };
 		E13BD87B1FE02E9700FF07A7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E13BD87A1FE02E9700FF07A7 /* SystemConfiguration.framework */; };
-		E13BD87D1FE02FCF00FF07A7 /* pikkartAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E13BD87C1FE02FCE00FF07A7 /* pikkartAR.framework */; };
-		E13BD8831FE0303700FF07A7 /* media.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E13BD8821FE0303600FF07A7 /* media.bundle */; };
-		E15000B91FE144C6006E14FB /* markers.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E15000B81FE144C5006E14FB /* markers.bundle */; };
 		E15737141D63074900E01527 /* VideoMesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15737131D63074900E01527 /* VideoMesh.swift */; };
 		E15737161D6307E500E01527 /* PikkartVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15737151D6307E500E01527 /* PikkartVideoPlayer.swift */; };
+		E15D48251FEBC36D0047C153 /* media.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E15D48231FEBC36D0047C153 /* media.bundle */; };
+		E15D48261FEBC36D0047C153 /* markers.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E15D48241FEBC36D0047C153 /* markers.bundle */; };
+		E15D48281FEBC39F0047C153 /* pikkartAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E15D48271FEBC39F0047C153 /* pikkartAR.framework */; };
 		E1AA6C611FE28B50002C8F60 /* texture2.png in Resources */ = {isa = PBXBuildFile; fileRef = E1AA6C601FE28B50002C8F60 /* texture2.png */; };
-		E1B1D8611DB664920046FD38 /* license.spz in Resources */ = {isa = PBXBuildFile; fileRef = E1B1D8601DB664920046FD38 /* license.spz */; };
 		E1C3BEB41D4F92DD006E8B9C /* imageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C3BEB31D4F92DD006E8B9C /* imageUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5B6047322C26BB0000FEECB /* pikkartARLocalized.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = pikkartARLocalized.bundle; sourceTree = SOURCE_ROOT; };
 		E11C574E1D508AFC00043B2B /* monkey.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = monkey.json; sourceTree = "<group>"; };
 		E11C57541D508DE800043B2B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 		E12CB3891D4F57E7009AB7B9 /* SDKSampleiOS_AugmentedVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKSampleiOS_AugmentedVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,14 +44,14 @@
 		E12CB3A71D4F5C97009AB7B9 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		E12CB3AE1D4F5E5A009AB7B9 /* Mesh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mesh.swift; sourceTree = "<group>"; };
 		E12CB3B01D4F5E80009AB7B9 /* RenderUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RenderUtils.swift; sourceTree = "<group>"; };
+		E13B7B831FED0DF600F0E4E2 /* pikkartMarker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pikkartMarker.jpg; sourceTree = "<group>"; };
 		E13BD87A1FE02E9700FF07A7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		E13BD87C1FE02FCE00FF07A7 /* pikkartAR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = pikkartAR.framework; path = ../../pikkartAR.framework; sourceTree = "<group>"; };
-		E13BD8821FE0303600FF07A7 /* media.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = media.bundle; path = ../../sample/media.bundle; sourceTree = "<group>"; };
-		E15000B81FE144C5006E14FB /* markers.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = markers.bundle; path = ../../sample/markers.bundle; sourceTree = "<group>"; };
 		E15737131D63074900E01527 /* VideoMesh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoMesh.swift; sourceTree = "<group>"; };
 		E15737151D6307E500E01527 /* PikkartVideoPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PikkartVideoPlayer.swift; sourceTree = "<group>"; };
+		E15D48231FEBC36D0047C153 /* media.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = media.bundle; sourceTree = SOURCE_ROOT; };
+		E15D48241FEBC36D0047C153 /* markers.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = markers.bundle; sourceTree = SOURCE_ROOT; };
+		E15D48271FEBC39F0047C153 /* pikkartAR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = pikkartAR.framework; sourceTree = "<group>"; };
 		E1AA6C601FE28B50002C8F60 /* texture2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture2.png; sourceTree = "<group>"; };
-		E1B1D8601DB664920046FD38 /* license.spz */ = {isa = PBXFileReference; lastKnownFileType = file; path = license.spz; sourceTree = "<group>"; };
 		E1C3BEB21D4F92DD006E8B9C /* imageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageUtil.h; sourceTree = "<group>"; };
 		E1C3BEB31D4F92DD006E8B9C /* imageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imageUtil.m; sourceTree = "<group>"; };
 		E1C3BEB51D4F9303006E8B9C /* glUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glUtil.h; sourceTree = "<group>"; };
@@ -60,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E13BD87D1FE02FCF00FF07A7 /* pikkartAR.framework in Frameworks */,
+				E15D48281FEBC39F0047C153 /* pikkartAR.framework in Frameworks */,
 				E13BD87B1FE02E9700FF07A7 /* SystemConfiguration.framework in Frameworks */,
 				E12CB3A81D4F5C97009AB7B9 /* libsqlite3.tbd in Frameworks */,
 				E12CB3A61D4F5C91009AB7B9 /* libz.tbd in Frameworks */,
@@ -73,7 +75,7 @@
 		E12CB3801D4F57E7009AB7B9 = {
 			isa = PBXGroup;
 			children = (
-				E1B1D8601DB664920046FD38 /* license.spz */,
+				E13B7B821FED0DF500F0E4E2 /* markerImages */,
 				E12CB3A01D4F5957009AB7B9 /* MyARApplication-Bridging-Header.h */,
 				E12CB38B1D4F57E7009AB7B9 /* MyARApplication */,
 				E12CB38A1D4F57E7009AB7B9 /* Products */,
@@ -92,8 +94,9 @@
 		E12CB38B1D4F57E7009AB7B9 /* MyARApplication */ = {
 			isa = PBXGroup;
 			children = (
-				E15000B81FE144C5006E14FB /* markers.bundle */,
-				E13BD8821FE0303600FF07A7 /* media.bundle */,
+				A5B6047322C26BB0000FEECB /* pikkartARLocalized.bundle */,
+				E15D48241FEBC36D0047C153 /* markers.bundle */,
+				E15D48231FEBC36D0047C153 /* media.bundle */,
 				E15737101D62FB0400E01527 /* VideoRendering */,
 				E12CB3A91D4F5DAE009AB7B9 /* ExtraRendering */,
 				E12CB38C1D4F57E7009AB7B9 /* AppDelegate.swift */,
@@ -123,10 +126,18 @@
 			path = ExtraRendering;
 			sourceTree = "<group>";
 		};
+		E13B7B821FED0DF500F0E4E2 /* markerImages */ = {
+			isa = PBXGroup;
+			children = (
+				E13B7B831FED0DF600F0E4E2 /* pikkartMarker.jpg */,
+			);
+			path = markerImages;
+			sourceTree = "<group>";
+		};
 		E13BD8791FE02E9600FF07A7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E13BD87C1FE02FCE00FF07A7 /* pikkartAR.framework */,
+				E15D48271FEBC39F0047C153 /* pikkartAR.framework */,
 				E13BD87A1FE02E9700FF07A7 /* SystemConfiguration.framework */,
 			);
 			name = Frameworks;
@@ -183,6 +194,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -202,13 +214,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E12CB3971D4F57E7009AB7B9 /* LaunchScreen.storyboard in Resources */,
-				E1B1D8611DB664920046FD38 /* license.spz in Resources */,
+				E15D48251FEBC36D0047C153 /* media.bundle in Resources */,
+				A5B6047422C26BB0000FEECB /* pikkartARLocalized.bundle in Resources */,
+				E15D48261FEBC36D0047C153 /* markers.bundle in Resources */,
 				E1AA6C611FE28B50002C8F60 /* texture2.png in Resources */,
 				E11C574F1D508AFC00043B2B /* monkey.json in Resources */,
-				E13BD8831FE0303700FF07A7 /* media.bundle in Resources */,
 				E12CB3941D4F57E7009AB7B9 /* Assets.xcassets in Resources */,
 				E11C57551D508DE800043B2B /* Main.storyboard in Resources */,
-				E15000B91FE144C6006E14FB /* markers.bundle in Resources */,
+				E13B7B841FED0DF600F0E4E2 /* pikkartMarker.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Roberto Avanzi (UCA9RDAL8N)";
 				DEVELOPMENT_TEAM = 3G6WA29NLC;
 				ENABLE_BITCODE = NO;
@@ -361,7 +375,10 @@
 				INFOPLIST_FILE = testPKTRecognitionFrameworkApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "-lstdc++";
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pikkart.trial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "d040b0d6-b891-4e4c-9bbe-f0086acea727";
@@ -370,7 +387,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "MyARApplication-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				VALID_ARCHS = "arm64 armv7";
+				VALID_ARCHS = arm64;
 			};
 			name = Debug;
 		};
@@ -378,6 +395,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				DEVELOPMENT_TEAM = 3G6WA29NLC;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -389,7 +407,10 @@
 				INFOPLIST_FILE = testPKTRecognitionFrameworkApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "-lstdc++";
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pikkart.trial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "d040b0d6-b891-4e4c-9bbe-f0086acea727";
@@ -398,7 +419,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "MyARApplication-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				VALID_ARCHS = "arm64 armv7";
+				VALID_ARCHS = arm64;
 			};
 			name = Release;
 		};
